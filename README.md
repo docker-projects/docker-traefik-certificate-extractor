@@ -21,6 +21,13 @@ Example run:
 docker run --name extractor -d -v /srv/traefik/acme:/app/data -v /srv/extractor/certs:/app/certs danielhuisman/traefik-certificate-extractor
 ```
 
+uGeek Docker
+
+```
+docker run --name extractor -d -v ~/docker/traefik/:/app/data ~/docker/traefik/extractor/certs:/app/certs ugeek/traefik-certificate-extractor:arm
+```
+
+
 ## Output
 ```
 certs/
